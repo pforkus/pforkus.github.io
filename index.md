@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: Paul Forkus
+
 ---
   
 ## Paul Forkus
 ![alt text](assets/profile.jpg)
+
 ---
 
 # CS Graduate | Southern New Hampshire University
+
 ---
 
 ## About Me
