@@ -1,12 +1,13 @@
 ---
 layout: default
-title: CS EPortfolio
 ---
-
+<div style="text-align: center">
+  
 ## Paul Forkus
-# CS Graduate | Southern New Hampshire University
-
+CS Graduate | Southern New Hampshire University
 ---
+</div>
+
 
 ## About Me
 
