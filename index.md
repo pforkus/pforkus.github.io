@@ -7,7 +7,7 @@ title: Paul Forkus
 ![alt text](assets/profile.jpg)
 ---
 
-#CS Graduate | Southern New Hampshire University
+# CS Graduate | Southern New Hampshire University
 ---
 
 ## About Me
