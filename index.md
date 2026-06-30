@@ -5,7 +5,9 @@ title: Paul Forkus
 
 ---
 
-<img src="assets/profile1.jpg" width="200" style="border-radius: 50%">
+<div style="text-align: center">
+<img src="assets/profile1.jpg" width="200" height="200" style="border-radius: 50%; object-fit: cover">
+</div>
 
 ---
 
