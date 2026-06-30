@@ -5,11 +5,11 @@ title: Paul Forkus
 
 ---
 
-![alt_text](assets/profile.jpg)
+<img src="assets/profile1.jpg" width="200" style="border-radius: 50%">
 
 ---
 
-#### CS Graduate | Southern New Hampshire University
+#### CS Graduate | SNHU
 
 ---
 
