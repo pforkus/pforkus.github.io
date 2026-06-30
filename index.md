@@ -7,7 +7,7 @@ title: Paul Forkus
 
 <div style="text-align: center">
 <img src="assets/profile1.jpg" width="250" >
-<h3> CS Graduate | SNHU </h4>
+<h3> CS Graduate | SNHU </h3>
 </div>
 
 ---
