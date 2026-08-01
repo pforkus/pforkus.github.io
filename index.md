@@ -52,7 +52,7 @@ title: Paul Forkus
 
 ## Artifact 1
 
-<div class="show-hide">
+<div class="show-hide" markdown="0">
 <input type="checkbox" class="read-more-state" id="artifact1" />
 <div class="read-more-wrap">
 <p>The artifact is a mobile inventory management application originally built for CS-360: Mobile Architecture and Programming. It allows users to log in, view, add, edit, and delete inventory items, with data originally persisted locally using Android's Room database.
