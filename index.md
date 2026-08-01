@@ -30,14 +30,6 @@ title: Paul Forkus
   max-height: 999em;
 }
 
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Read More';
-}
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Read Less';
-}
-
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
@@ -70,7 +62,7 @@ I selected this artifact because it allowed me to consolidate multiple categorie
 <p class="read-more-target">This enhancement deepened my understanding of Android development beyond what the original course instilled. Implementing UI components like bottom sheets and navigation drawers required learning patterns I hadn't used before, and building search, sort, and filter functionality forced me to think carefully about how data should be structured and queried to support those features efficiently. For example, I had to design solutions for populating the chip group chips with categories, and how to shape endpoints so that the mobile app could utilize the same search and sort functionality as the Angular app. I also had to think more critically about mobile-specific constraints, such as how an app should interact with device APIs, and how to handle something as seemingly simple as image storage in a way that's appropriate for the mobile context.</p>
 <p class="read-more-target">The biggest challenge throughout this process was less about any single feature and more about sequencing: understanding how to add substantial new functionality while anticipating a data layer migration and implementing features in an order that avoided leaving the application in a broken or untestable state at any point. This required me to isolate changes, test incrementally, and be deliberate about the order and manner in which I introduced new features. The overall process elucidated why much of professional software development revolves around foresight and preparation, and not just on implementing functionality.</p>
 </div>
-<label for="artifact1" class="read-more-trigger"></label>
+<label for="artifact1" class="read-more-trigger">Read More</label>
 </div>
 
 
