@@ -33,3 +33,11 @@
   background:#666;
   color:white;
 }
+
+.read-more-trigger::before {
+  content: "Read More";
+}
+
+.read-more-state:checked ~ .read-more-trigger::before {
+  content: "Read Less";
+}
