@@ -67,6 +67,9 @@ I selected this artifact because it allowed me to consolidate multiple categorie
 - [Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
 - [Android Application](https://github.com/pforkus/CS499)
 
+---
+
+[Before & After Comparison](comparison.html)
 
 ---
 
