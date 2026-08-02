@@ -76,6 +76,20 @@ I selected this artifact because it allowed me to consolidate multiple categorie
 
 ---
 
+## Original Android Application
+
+[Original Android Application](https://github.com/pforkus/inventory-tracking-original)
+
+---
+
+## Artifact After Enhancements
+
+[Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
+[Android Application](https://github.com/pforkus/CS499)
+
+
+---
+
 ## Code Review
 Prior to implementing any enhancements on the mobile inventory tracking application, I thoroughly reviewed the code to identify vulnerabilities, logical issues, and bad design practices to ensure that enhancements are built on a solid foundation. If you are interested in my observations and thought process throughout, you can watch along [here](https://www.youtube.com/watch?v=7f9-uHa4kbs).
 
