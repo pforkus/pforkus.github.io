@@ -45,14 +45,14 @@ I selected this artifact because it allowed me to consolidate multiple categorie
 
 ## Original Android Application
 
-[Original Android Application](https://github.com/pforkus/inventory-tracking-original)
+- [Original Android Application](https://github.com/pforkus/inventory-tracking-original)
 
 ---
 
 ## Artifact After Enhancements
 
-[Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
-[Android Application](https://github.com/pforkus/CS499)
+- [Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
+- [Android Application](https://github.com/pforkus/CS499)
 
 
 ---
