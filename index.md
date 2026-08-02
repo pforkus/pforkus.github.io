@@ -1,3 +1,8 @@
+---
+layout: default
+title: Paul Forkus
+---
+
 <style>
 summary {
   cursor: pointer;
@@ -13,16 +18,8 @@ summary:hover {
 }
 </style>
 
----
-
-layout: default
-title: Paul Forkus
-
----
-
 <div style="text-align: center">
 <img src="assets/profile1.jpg" width="200">
-
 </div>
 <h3 style="text-align: center">CS Graduate | SNHU</h3>
 
@@ -69,7 +66,7 @@ I selected this artifact because it allowed me to consolidate multiple categorie
 
 ---
 
-[Before & After Comparison](comparison.html)
+- [Before & After Comparison](comparison.html)
 
 ---
 
