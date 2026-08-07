@@ -51,6 +51,7 @@ I selected this artifact because it allowed me to consolidate multiple categorie
 <label for="artifact2" class="read-more-trigger"></label>
 </div>
 
+
 ---
 
 ## Artifact 3 - Databases
