@@ -12,7 +12,7 @@ title: Paul Forkus
 ---
 
 ## Professional Self Assessment
-<p> Goes here</p>
+
 
 ---
 
@@ -60,6 +60,20 @@ title: Paul Forkus
 
 ## Artifact 3 - Databases
 
+<div class="show-hide" markdown="0">
+<input type="checkbox" class="read-more-state" id="artifact3" >
+<div class="read-more-wrap">
+<p>As with the other enhancements, I chose the inventory tracking application from CS360, Mobile Architecture and Programming. It was a simple CRUD app that authenticated users and allowed them to create, store, and maintain an inventory database, complete with low inventory SMS alerts.</p>
+<p>The Android application was well-suited for this enhancement as it already utilized a local SQLite Room database. Having worked with MongoDB in CS340: Client/Server Development and CS465: Full Stack Development, I chose to migrate the local database to a remote NoSQL solution using MongoDB Atlas. Unlike Room, a remote database requires a backend to manage connections and route requests, so I designed and built an Express REST API to serve as the data layer between the clients and the database. Both the Android and Angular applications communicate exclusively through this API, which handles all CRUD operations and supports the search, sort, and filter functionality added to each interface.</p>
+<p>While the original application demonstrated my competency with Android development and local persistence, this enhancement illustrates my ability to design databases of varying architectures and develop interconnected systems where a mobile client, web client, and backend API depend on one another.</p>
+<span class="read-more-target">
+<p>I did meet the course outcomes that I initially planned to meet with this enhancement. I anticipated that this enhancement would fulfill, at least partially, outcome four, which requires students, “demonstrate an ability to use well founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals”. While the migration itself aligned with outcome four, certain previously unconsidered aspects of the migration enabled me to more fully demonstrate alignment with outcome five.</p>
+<p>The process of creating the new database, schema, routes, and controllers for the new database and API was relatively straightforward as I recently took CS465: Full Stack Development, and the material is still fresh on my mind. The most difficult part of the enhancement was connecting the Android application to the new backend, as it forced me to adopt several tools, libraries, and components I was unfamiliar with, such as Glide, Retrofit, and Cloudinary. Another challenge I faced was with implementing the features in a sequence that allowed me to test changes incrementally and not render the application completely inoperable. Through the enhancements, I learned how to shape endpoints that could be reused for a variety of operations, I learned how to use Retrofit and HTTP interceptors on Android, and I learned how to properly transmit, store, and retrieve sensitive credentials. Throughout the enhancements, I also reinforced my skills with Postman, Compass Atlas, and Mongoose. </p>
+</span>
+</div>
+<label for="artifact3" class="read-more-trigger"></label>
+</div>
+  
 ---
 
 ## Original Artifact
