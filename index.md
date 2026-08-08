@@ -75,6 +75,8 @@ title: Paul Forkus
 
 ---
 
+### Screenshots
+
 - [Before & After Comparison](comparison.html)
 - [Angular Interface](angularInterface.html)
 
