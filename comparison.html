@@ -31,21 +31,24 @@ title: Artifact Comparison
 <h2>Dashboard</h2>
 
 <div style="display: flex; gap: 0;">
-  <div style="width: 50%; padding-right: 5px; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
+  <div style="width: 33%; padding-right: 5px; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
     <img src="/assets/images/originalDash.jpg" 
       style="width: 100%; height: 330px; object-fit: contain; overflow: hidden">
     <p style="text-align: center;">Original</p>
   </div>
-  <div style="width: 50%; padding-left: 5px; display: flex; flex-direction: column;">
-    <div style="display: flex; width: 100%">
+  <div style="width: 66%; padding-left: 5px; display: flex; flex-direction: column;">
+    <div style="display: flex; width: 100%; height: 330px;">
       <img src="/assets/images/screenshot.314.jpg" 
-        style="width: 100%; height: 330px; object-fit: contain;">
+        style="width: 50%; height: 100%; object-fit: contain;">
+      <img src="/assets/images/screenshot.322.jpg" 
+        style="width: 50%; height: 100%; object-fit: contain;">
     </div>
     <p style="text-align: center; margin-top: 10.5px;">Final</p>
 </div>
 </div>
 
-<p>Here is where the dashboard explanation goes.</p>
+<p>The dashboard activity highlights several key differences between the original and enhanced application. Originally, the toolbar served only as a static label, item cells displayed only their names and quantities and were confined to a fixed three-column grid layout, and each cell contained its own delete button.</p>
+<p>The enhanced version expands the toolbar with a search icon, hamburger menu, and overflow menu. A category ChipGroup now dynamically populates with the current inventory categories, enabling quick filtering. The per-cell delete button has been removed in favor of an Action Mode where long-pressing an item activates a Contextual Action Bar, providing support for both single and batch deletions. Finally, the default layout has been changed to a two column layout from three, adding more space to accomodate the addition of the price field.</p>
   
 
 <h2>Item Dialog Fragment</h2>
@@ -65,7 +68,7 @@ title: Artifact Comparison
 </div>
 </div>
 
-<p>This is where the item dialog fragment explanation goes.</p>
+<p>When migrating from Room to MongoDB, I took the opportunity to expand the data model with additional fields, SKU, price, date created/modified, and category, to make inventory records more descriptive. These schema changes required updating the Android app accordingly, with the item dialog fragments revised to display, accept, and submit the new fields.</p>
 
 <h2>Android New Features</h2>
 
@@ -90,8 +93,7 @@ title: Artifact Comparison
   </div>
 </div>
 
-<p>This is where the sort and toggle view features' explanation goes.</p>
-<br>
+<p>These screenshots illustrate the overflow menu and its functionality. The first image shows the dropdown that appears when the overflow icon is tapped, revealing the available options. Selecting "Sort" opens a bottom sheet allowing users to sort inventory by name, category, date added, or price, in either ascending or descending order. Selecting "Toggle Layout" switches the default two-column card grid to a single-column list view, where each item displays its name, category, quantity, and price. This alternate layout helps users with larger inventories quickly scan and compare items without having to open each one individually.</p>
 
 <div style="display: flex; gap: 0;">
   
