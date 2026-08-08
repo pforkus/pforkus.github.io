@@ -37,5 +37,48 @@ title: Test Screenshots
 <p>Confirming the inverse, we can see that protected routes reject unauthorized requests when no valid JWT is present.</p>
 <br>
 
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.334.jpg"
+       style="width: auto;">
+</div>
+<p>For Android, tokens are encrypted at rest using AES-256-GCM, with the encryption key stored in Android Keystore, ensuring the token is never exposed in readable form on the device. To verify the app was properly receiving and decrypting the token, a temporary log was added to the getToken method of the TokenManager to log its reception on login.</p>
+<br>
+
+
 <h2>Image Persistence</h2>
+<br>
+
+<div style="display: flex; gap: 0;">
+  <div style="width: 50%; padding-right: 5px; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
+    <img src="/assets/images/screenshot.329.jpg" 
+      style="width: 100%; height: 330px; object-fit: contain;">
+    <p style="text-align: center;">Saving an image on Android</p>
+  </div>
+  <div style="width: 50%; padding-left: 5px; display: flex; flex-direction: column;">
+    <div style="display: flex; width: 100%">
+      <img src="/assets/images/screenshot.330.jpg" 
+        style="width: 100%; height: 330px; object-fit: contain;">
+    </div>
+    <p style="text-align: center; margin-top: 10.5px;">Image displays in app</p>
+</div>
+</div>
+<p>Here we confirm that the image is successfully captured and displayed within the app, the first step before verifying it reaches Cloudinary and persists in MongoDB Atlas.</p>
+<br>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.331.jpg"
+       style="width: auto;">
+</div>
+<p>By visiting our Cloudinary dashboard, we can confirm the image has been successfully uploaded and stored.</p>
+<br>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.335.jpg"
+       style="width: auto;">
+</div>
+<p>Finally, we can confirm that the Cloudinary image URL is correctly persisted in the MongoDB Atlas document.</p>
+<br>
+
+
+
 
