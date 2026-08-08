@@ -1,0 +1,41 @@
+---
+layout: default
+title: Test Screenshots
+---
+
+<h1>Testing</h1>
+<br>
+<h2>Bcrypt</h2>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.324.jpg"
+       style="width: auto;">
+</div>
+<p>Here we can confirm that bcrypt is properly hashing passwords and the hashed passwords are being stored in database instead of the raw credential.</p>
+
+<br>
+<h2>JWT Postman</h2>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.326.jpg"
+       style="width: auto;">
+</div>
+<p>Using Postman, we can hit the login endpoint with valid credentials and confirm that a JWT token is returned. Don't worry, these expire after one hour.</p>
+<br>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.327.jpg"
+       style="width: auto;">
+</div>
+<p>Using the token received in the previous step, we can verify that authenticated requests are granted access to protected routes as expected.</p>
+<br>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/assets/images/screenshot.328.jpg"
+       style="width: auto;">
+</div>
+<p>Confirming the inverse, we can see that protected routes reject unauthorized requests when no valid JWT is present.</p>
+<br>
+
+<h2>Image Persistence</h2>
+
