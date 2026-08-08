@@ -48,7 +48,7 @@ title: Artifact Comparison
 </div>
 
 <p>The dashboard activity highlights several key differences between the original and enhanced application. Originally, the toolbar served only as a static label, item cells displayed only their names and quantities and were confined to a fixed three-column grid layout, and each cell contained its own delete button.</p>
-<p>The enhanced version expands the toolbar with a search icon, hamburger menu, and overflow menu. A category ChipGroup now dynamically populates with the current inventory categories, enabling quick filtering. The per-cell delete button has been removed in favor of an Action Mode where long-pressing an item activates a Contextual Action Bar, providing support for both single and batch deletions. Finally, the default layout has been changed to a two column layout from three, adding more space to accomodate the addition of the price field.</p>
+<p>The enhanced version expands the toolbar with a search icon, hamburger menu, and overflow menu. A category ChipGroup now dynamically populates with the current inventory categories, enabling quick filtering. The per-cell delete button has been removed in favor of an Action Mode where long-pressing an item activates a Contextual Action Bar, providing support for both single and batch deletions. Finally, the default layout has been changed to a two column layout from three, adding more space to accomodate the addition of the price field, and modifying the currency and quantity labels for clarity.</p>
   
 
 <h2>Item Dialog Fragment</h2>
@@ -110,7 +110,7 @@ title: Artifact Comparison
   </div>
 </div>
 
-<p>This is where the navigation drawer and settings activitys' explanation goes.</p>
+<p>The left screenshot displays the newly added navigation drawer, which provides options to exit the app, log out, and access settings. Exit closes the app, logout clears the user's JWT and returns them to the login screen with back navigation disabled, ensuring subsequent access attempts require reauthentication. The right screenshot shows the settings activity, where users can adjust text size, toggle light and dark themes, and manage notification and permission settings.</p>
 <br>
 
 <div style="display: flex; gap: 0;">
@@ -134,7 +134,7 @@ title: Artifact Comparison
   </div>
 </div>
 
-<p>This is where the search, suggestion, and category filtering features explanation goes.</p>
+<p>These screenshots showcase the search, filtering, and suggestion features of the dashboard. The first screenshot demonstrates the prefix trie powering search suggestions. As the user types in the search bar, the input is matched against a trie populated with all inventory item names, and the results are displayed in a dropdown list for quick selection. Tapping a suggestion runs a search for that item. The second screenshot shows category chip filtering, where the app populates a ChipGroup with all distinct categories in the inventory and selecting one filters results to only that category. The final screenshot shows a completed search, where a name query is submitted and all matching items are returned.</p>
 <br>
 
 <h1>Completely New</h1>
