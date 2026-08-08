@@ -93,6 +93,7 @@ title: Paul Forkus
 
 - [Before & After Comparison](comparison.html)
 - [Angular Interface](angularInterface.html)
+- [Testing](testing.html)
 
 ---
 
