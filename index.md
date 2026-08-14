@@ -84,8 +84,9 @@ title: Paul Forkus
 
 ## Finalized Artifact
 
-- [Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
 - [Android Application](https://github.com/pforkus/CS499)
+- [Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
+
 
 ---
 
