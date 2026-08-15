@@ -12,8 +12,9 @@ title: Paul Forkus
 ---
 
 ## Professional Self Assessment
+
 <div class="show-hide" markdown="0">
-<input type="checkbox" class="read-mre-state" id="assessment">
+<input type="checkbox" class="read-more-state" id="assessment">
 <div class="read-more-wrap">
 <p>Throughout my time in the Computer Science program at Southern New Hampshire University, I have grown not only as a software engineer but as a problem solver and professional. My time at Southern New Hampshire was spent learning numerous programming languages, frameworks, architectures, and engineering practices. While I have indubitably improved my ability to produce functional software, I have also come to understand that software development is as much about discipline, preparation, and process as it is about code, and the work completed in this capstone demonstrates my adherence to these practices and principles.
 </p>
