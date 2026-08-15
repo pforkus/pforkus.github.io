@@ -27,6 +27,9 @@ title: Paul Forkus
 <p>Software engineering and design competencies were developed incrementally across the program, with each course contributing a distinct perspective. Courses like Client/Server Development and Full Stack Development taught me to build interconnected, dependent systems, while Reverse Engineering offered a view of software from the machine's perspective, illuminating how instructions are interpreted at a lower level and deepening my understanding of how vulnerabilities can be introduced and exploited. UI/UX Design and Mobile Architecture and Programming instilled the importance of intuitive, user-centered design, a foundation that was reinforced by a concurrent Fundamentals of Design course covering color theory, typography, and visual hierarchy. Taking these courses in parallel allowed me to immediately apply design principles to real interfaces, bridging the gap between aesthetic theory and practical implementation. Emerging Systems and Architectures pushed me into unfamiliar territory, building and iterating on deep Q-networks, and in doing so reinforced something the program taught consistently: the ability to pick up an unfamiliar technology, work through it methodically, and produce something functional.</p>
 <p>I took a single Android application and transformed it into a full-stack system, one consisting of an Express API backed by MongoDB Atlas, an Angular web interface, and a substantially expanded Android client, all sharing the same data layer. Across the three artifacts, you'll see how that work demonstrates my abilities in software engineering and design, data structures and algorithms, and databases, while also reflecting my proficiencies with distributed systems, MVC and MVVM architectures, and full-stack and mobile development.</p>
 </span>
+</div>
+<label for="assessment" class="read-more-trigger"></label>
+</div>
 
 ---
 
