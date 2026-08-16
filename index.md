@@ -102,7 +102,7 @@ title: Paul Forkus
 
 ## Finalized Artifact
 
-- [Android Application](https://github.com/pforkus/CS499)
+- [Android Inventory Tracking App](https://github.com/pforkus/CS499)
 - [Angular Interface / Express API](https://github.com/pforkus/CS499-1) <br>
 
 
